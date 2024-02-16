@@ -11,9 +11,9 @@ api.interceptors.request.use(
     console.log("요청합니다!");
     return config;
   },
-  function (erro) {
+  function (error) {
     console.log("요청실패!");
-    return Promise.reject(erro);
+    return Promise.reject(error);
   }
 );
 
