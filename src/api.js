@@ -20,7 +20,7 @@ api.interceptors.request.use(
 // 응답 인터셉터 추가
 api.interceptors.response.use(
   function (response) {
-    console.log("요청받았어요!");
+    console.log("응답입니다!");
     return response;
   },
   function (error) {
